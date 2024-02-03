@@ -5,10 +5,10 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] float torqueAmount = 1f;
+    [SerializeField] float torqueAmount = 15f;
     Rigidbody2D rb2d;
-    [SerializeField] float boostSpeed = 60f;
-    [SerializeField] float baseSpeed = 30f;
+    [SerializeField] float boostSpeed = 90f;
+    [SerializeField] float baseSpeed = 50f;
     bool canMove = true;
 
     SurfaceEffector2D surfaceEffector2D;
